@@ -6,6 +6,8 @@ O objetivo inicial não é modificar o código, mas utilizar a IA como apoio par
 
 ---
 
+![alt text](image.png)
+
 ## Objetivos
 
 Ao concluir este laboratório, você será capaz de:
