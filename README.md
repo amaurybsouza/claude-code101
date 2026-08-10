@@ -1,11 +1,61 @@
-### What are Skills?
-Skills are folders of instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. Think of them as expertise packages—they teach Claude how to complete specific tasks in a repeatable way.
+# Claude Code 101
 
-### Enabling Skills
-Skills are currently available as a feature preview for users on Pro, Max, Team, and Enterprise plans. To use Skills, you'll need to have Code execution and file creation enabled, since Skills require Claude's secure sandboxed computing environment to function.
+Repositório de estudos práticos sobre **Claude Code**, **Terraform**, **Infrastructure as Code** e **Cloud Security**.
 
-Here's how to enable Skills:
-- Navigate to Settings > Capabilities
-- Ensure that Code execution and file creation is toggled on
-- Scroll to the Skills section
-- Toggle individual skills on or off as needed
+O objetivo deste projeto é explorar como o Claude Code pode apoiar tarefas de engenharia e segurança, incluindo:
+
+- entendimento de projetos Terraform;
+- revisão de Infrastructure as Code;
+- identificação de riscos de segurança;
+- sugestões de melhoria;
+- uso de contexto de projeto;
+- criação de Skills especializadas;
+- automação de revisões em pipelines.
+
+---
+
+## Estrutura do projeto
+
+```text
+claude-code101/
+├── README.md
+├── CLAUDE.md
+└── 01-terraform-review/
+    ├── main.tf
+    └── README.md
+```
+
+---
+
+## Labs
+
+### 01 — Terraform Review
+
+Primeiro laboratório utilizando o Claude Code para analisar um projeto Terraform.
+
+O objetivo é entender:
+
+- quais recursos serão criados;
+- como os recursos se relacionam;
+- possíveis riscos de segurança;
+- boas práticas recomendadas.
+
+📁 [`01-terraform-review`](01-terraform-review)
+
+---
+
+## Tecnologias
+
+- Claude Code
+- Terraform
+- AWS
+- Infrastructure as Code
+- Cloud Security
+
+---
+
+## Aviso
+
+Os exemplos deste repositório possuem finalidade exclusivamente educacional.
+
+Não execute `terraform apply` sem revisar cuidadosamente os recursos e configurações.
